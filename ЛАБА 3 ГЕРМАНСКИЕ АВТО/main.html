@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+<meta charset="UTF-8">
+  <title>Германские автомобили</title>
+  <style>
+    .main{
+      border:grey solid 1px;
+      display:block;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .search-line{
+      background-color:white;
+      width:60%;
+      height: 3%;
+      display: inline-block;
+      float:none;
+      margin: 0.5%;
+      vertical-align: middle;
+    }
+    .block-for-menus{
+      background-image: url('cars.jpg');
+      background-size: cover;
+      background-size: contain;
+      background-repeat: repeat; 
+      background-position: center;
+      position: relative;
+      height:18%;
+    }
+    .block-for-menus h1 {
+      margin: 0;
+      font-size: 24px;
+      color: white;
+      position: absolute;
+      top: 5%;
+      width: 100%;
+      text-align: center;
+    }
+    .menus {
+      position: absolute;
+      bottom: 1%;
+      width: 100%;
+      text-align: center;
+    }
+    .menus a {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 20px;
+      color: black;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 0.5% 1%;
+      margin: 0 10px;
+
+    }
+    .gray{
+      background-color:gray;
+    }
+    .main-informatinon{
+      background-color: white;
+      height:auto;
+      display:block;
+    }
+    .block-1-picture-with-text{
+      display: inline-block; 
+      background-color: white;
+      margin:1%;
+      vertical-align: top; 
+      text-align: center;
+      height:auto;
+    }    
+    .block-1-picture-with-text p{
+      text-align: left;
+    }
+    .block-1-picture-with-text-large{
+      width: 70%; 
+    }
+    .block-1-picture-with-text-small{
+      width: 15%;
+    }
+    .block-1-picture-with-text img{
+      width: 100%; 
+      height: 30%; 
+      display: block; 
+      margin: 0 auto;
+    }
+    .block-2-picture-with-text {
+        display: inline-block;
+        width: 45%;
+        margin: 1%;
+        padding:1%;
+        background-color: white;
+        text-align: left;
+        vertical-align: top;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        border: gray solid 1px;
+        box-sizing:border-box;
+        height:auto;
+    }
+    .block-2-picture-with-text img {
+      width: 30%;
+      height: 20%;
+      vertical-align: middle;
+      display: inline-block;
+    }
+    .block-2-picture-with-text h2 {
+      font-size: 18px;
+      margin-top: 0;
+      margin-left: 10px;
+      text-align: center;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: normal;
+    }
+    .footer-info {
+      display: flex;
+      width: 100%;
+      height: auto; 
+      border-top: 1px solid gray;
+      background-color: white;
+      padding: 10px;
+      box-sizing: border-box;
+      justify-content: space-between; 
+      align-items: center;
+    }
+
+    .left-info {
+      text-align: left;
+      margin: 0; 
+      padding: 0;
+    }
+    .right-info {
+      text-align: right;
+      margin: 0; 
+      padding: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="main gray">
+    <div class="search-line"></div>🔍
+    <div class="block-for-menus">
+      <h1>Германские автомобили</h1>
+      <div class="menus">
+        <a href="main.html">Меню 1</a>
+        <a href="#">Меню 2</a>
+        <a href="#">Меню 3</a>
+      </div>  
+    </div>
+    <div class="main-informatinon">
+      <div class="block-1-picture-with-text block-1-picture-with-text-large">
+        <img src="car1.jpg" alt="Volkswagen W12">
+        <h2>Volkswagen W12</h2> 
+        <p>Это мощный и надежный автомобиль с высокими показателями безопасности и производительности.</p>
+      </div>
+      <div class="block-1-picture-with-text block-1-picture-with-text-small">
+        <img src="car2.jpg" alt="BMW M850i">
+        <h2>BMW M850i</h2> 
+        <p>Инновационный дизайн и высокие технологии делают этот автомобиль идеальным выбором для современного водителя.</p>
+      </div>
+
+      <div class="block-2-picture-with-text">
+        <img src="car3.jpg" alt="Porsche panamera diesel 3.0">
+        <h2>Porsche panamera diesel 3.0</h2> 
+        <p>Сочетание скорости, комфорта и экономичности.</p>
+      </div>
+      <div class="block-2-picture-with-text">
+        <img src="car4.jpg" alt="Porsche"><h2>Porsche</h2> 
+        <p>Инновационный дизайн и высокие технологии делают этот автомобиль идеальным выбором для современного водителя.</p>
+      </div>
+      <div class="block-2-picture-with-text width">
+        <img src="car5.jpg" alt="BMW"><h2>BMW</h2> 
+        <p>Инновационный дизайн и высокие технологии делают этот автомобиль идеальным выбором для современного водителя.</p>
+      </div>
+      <div class="block-2-picture-with-text">
+        <img src="car6.jpg" alt="Volkswagen"><h2>Volkswagen</h2> 
+        <p>Инновационный дизайн и высокие технологии делают этот автомобиль идеальным выбором для современного водителя.</p>
+      </div>
+    </div>  
+    <div class="footer-info">
+      <div class="left-info">© Фамилия И.О., группа, 2024-2025</div>
+      <div class="right-info">✉ Контакты</div>
+    </div>
+  </div>
+</body>
+
+</html>
